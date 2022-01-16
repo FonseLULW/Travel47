@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+@font-face {
+    font-family: "russian";
+    src: url("/fonts/Russian.ttf");
+}
+
+@font-face {
+    font-family: "coolvetica";
+    src: url("/fonts/coolvetica.otf");
+}
+
+body{
+    margin: 0px;
+    font-family: 'Hind', sans-serif;
+}
+
+img{
+    display: block;
+}
+
+.transparent-bg{
+    margin: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1%;
+    overflow: hidden;
+}
+
+h2{
+    margin: 0px 0px 0px 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-indent: 0.2em;
+}
